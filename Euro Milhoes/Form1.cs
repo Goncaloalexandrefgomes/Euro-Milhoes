@@ -16,5 +16,51 @@ namespace Euro_Milhoes
         {
             InitializeComponent();
         }
+
+        private int nestrelas = 0, nnumeros = 0;
+
+
+        private void estrela(object sender, EventArgs e)
+        {
+            Label temp = (Label)sender;
+            if (temp.Text == "X")
+            {
+                temp.Text = "";
+                nestrelas--;
+            }
+            else if (nestrelas < 2)
+            {
+                temp.Text = "X";
+                nestrelas++;
+                contador2.Text = temp.Tag.ToString();
+            }
+        }
+
+
+        private void numeros(object sender, EventArgs e)
+        {
+            Label temp = (Label)sender;
+            if (temp.Text == "X")
+            {
+                temp.Text = "";
+                nnumeros--;
+            }
+            else if (nnumeros < 5)
+            {
+                temp.Text = "X";
+                nnumeros++;
+                contador.Text = temp.Tag.ToString();
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }
