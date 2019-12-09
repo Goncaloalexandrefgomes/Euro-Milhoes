@@ -23,7 +23,7 @@ namespace Euro_Milhoes
         {
             Label tmp = (Label)sender;
             tmp.Text = E.estrela(Convert.ToInt32(tmp.Tag.ToString())-1);
-            teste2.Text = tmp.Tag.ToString();
+            teste2.Text = E.listaStars;
         }
 
 
@@ -31,13 +31,18 @@ namespace Euro_Milhoes
         {
             Label tmp = (Label)sender;
             tmp.Text = E.numero(Convert.ToInt32(tmp.Tag.ToString())-1);
-            teste.Text = E.listanum;
+            teste.Text = E.listaNumbers;
 
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
             Application.Restart();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

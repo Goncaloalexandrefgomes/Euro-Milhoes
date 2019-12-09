@@ -47,11 +47,39 @@ namespace Euro_Milhoes
             else return "";
         }
 
-        public string listanum
+        public string listaNumbers
         {
             get
             {
-                return "1+2+3+4+5";
+                string lista = "";
+                for (int i = 0; i < 50; i++)
+                {
+                    if (numeros[i])
+                    {
+                        if (lista != "") lista += "-";
+                        lista += "" + (i + 1).ToString();
+
+                    }
+                }
+                    return lista;
+            }
+        }
+
+        public string listaStars
+        {
+            get
+            {
+                string lista = "";
+                for (int i = 0; i < 12; i++)
+                {
+                    if (estrelas[i])
+                    {
+                        if (lista != "") lista += "-";
+                        lista += "" + (i + 1).ToString();
+
+                    }
+                }
+                return lista;
             }
         }
     }

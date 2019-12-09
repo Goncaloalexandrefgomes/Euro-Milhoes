@@ -906,7 +906,7 @@
             // 
             this.contador2.AutoSize = true;
             this.contador2.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contador2.Location = new System.Drawing.Point(533, 79);
+            this.contador2.Location = new System.Drawing.Point(510, 79);
             this.contador2.Name = "contador2";
             this.contador2.Size = new System.Drawing.Size(0, 40);
             this.contador2.TabIndex = 67;
@@ -915,7 +915,7 @@
             // 
             this.teste.AutoSize = true;
             this.teste.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(281, 79);
+            this.teste.Location = new System.Drawing.Point(203, 79);
             this.teste.Name = "teste";
             this.teste.Size = new System.Drawing.Size(0, 23);
             this.teste.TabIndex = 68;
@@ -1032,6 +1032,7 @@
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "EuroMilhoes";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
