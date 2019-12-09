@@ -17,44 +17,21 @@ namespace Euro_Milhoes
             InitializeComponent();
         }
 
-        private int nestrelas = 0, nnumeros = 0;
-
+        private euromilhoes E = new euromilhoes();
 
         private void estrela(object sender, EventArgs e)
         {
-            Label temp = (Label)sender;
-            if (temp.Text == "X")
-            {
-                temp.Text = "";
-                nestrelas--;
-            }
-            else if (nestrelas < 2)
-            {
-                temp.Text = "X";
-                nestrelas++;
-                contador2.Text = temp.Tag.ToString();
-            }
+            Label tmp = (Label)sender;
+            tmp.Text = E.estrela(Convert.ToInt32(tmp.Tag.ToString())-1);
+            teste2.Text = tmp.Tag.ToString();
         }
 
 
         private void numeros(object sender, EventArgs e)
         {
-            Label temp = (Label)sender;
-            if (temp.Text == "X")
-            {
-                temp.Text = "";
-                nnumeros--;
-            }
-            else if (nnumeros < 5)
-            {
-                temp.Text = "X";
-                nnumeros++;
-                contador.Text = temp.Tag.ToString();
-            }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
+            Label tmp = (Label)sender;
+            tmp.Text = E.numero(Convert.ToInt32(tmp.Tag.ToString())-1);
+            teste.Text = E.listanum;
 
         }
 

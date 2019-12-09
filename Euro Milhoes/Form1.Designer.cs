@@ -96,6 +96,10 @@
             this.contador = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.contador2 = new System.Windows.Forms.Label();
+            this.teste = new System.Windows.Forms.Label();
+            this.teste2 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -873,7 +877,7 @@
             this.label62.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label62.Location = new System.Drawing.Point(437, 129);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(25, 347);
+            this.label62.Size = new System.Drawing.Size(23, 347);
             this.label62.TabIndex = 64;
             this.label62.Text = "2  E s t r e l a s";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -907,13 +911,56 @@
             this.contador2.Size = new System.Drawing.Size(0, 40);
             this.contador2.TabIndex = 67;
             // 
+            // teste
+            // 
+            this.teste.AutoSize = true;
+            this.teste.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teste.Location = new System.Drawing.Point(281, 79);
+            this.teste.Name = "teste";
+            this.teste.Size = new System.Drawing.Size(0, 23);
+            this.teste.TabIndex = 68;
+            // 
+            // teste2
+            // 
+            this.teste2.AutoSize = true;
+            this.teste2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teste2.Location = new System.Drawing.Point(676, 79);
+            this.teste2.Name = "teste2";
+            this.teste2.Size = new System.Drawing.Size(0, 23);
+            this.teste2.TabIndex = 69;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Location = new System.Drawing.Point(371, 269);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(40, 45);
+            this.label63.TabIndex = 70;
+            this.label63.Text = "+";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.Location = new System.Drawing.Point(47, 27);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(184, 38);
+            this.label64.TabIndex = 71;
+            this.label64.Text = "Euro Milhoes";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = global::Euro_Milhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
+            this.Controls.Add(this.label64);
+            this.Controls.Add(this.label63);
+            this.Controls.Add(this.teste2);
+            this.Controls.Add(this.teste);
             this.Controls.Add(this.contador2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.contador);
@@ -985,7 +1032,6 @@
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "EuroMilhoes";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1061,6 +1107,10 @@
         private System.Windows.Forms.Label contador;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label contador2;
+        private System.Windows.Forms.Label teste;
+        private System.Windows.Forms.Label teste2;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label64;
     }
 }
 
