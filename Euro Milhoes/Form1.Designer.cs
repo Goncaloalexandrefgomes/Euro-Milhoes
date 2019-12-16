@@ -93,13 +93,17 @@
             this.label72 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
-            this.contador = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.contador2 = new System.Windows.Forms.Label();
-            this.teste = new System.Windows.Forms.Label();
-            this.teste2 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
+            this.n1 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
+            this.e2 = new System.Windows.Forms.Label();
+            this.e1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label65 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -882,53 +886,6 @@
             this.label62.Text = "2  E s t r e l a s";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // contador
-            // 
-            this.contador.AutoSize = true;
-            this.contador.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contador.Location = new System.Drawing.Point(122, 79);
-            this.contador.Name = "contador";
-            this.contador.Size = new System.Drawing.Size(0, 40);
-            this.contador.TabIndex = 65;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(615, 535);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 43);
-            this.button2.TabIndex = 66;
-            this.button2.Text = "Enviar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // contador2
-            // 
-            this.contador2.AutoSize = true;
-            this.contador2.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contador2.Location = new System.Drawing.Point(510, 79);
-            this.contador2.Name = "contador2";
-            this.contador2.Size = new System.Drawing.Size(0, 40);
-            this.contador2.TabIndex = 67;
-            // 
-            // teste
-            // 
-            this.teste.AutoSize = true;
-            this.teste.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(203, 79);
-            this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(0, 23);
-            this.teste.TabIndex = 68;
-            // 
-            // teste2
-            // 
-            this.teste2.AutoSize = true;
-            this.teste2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste2.Location = new System.Drawing.Point(676, 79);
-            this.teste2.Name = "teste2";
-            this.teste2.Size = new System.Drawing.Size(0, 23);
-            this.teste2.TabIndex = 69;
-            // 
             // label63
             // 
             this.label63.AutoSize = true;
@@ -949,6 +906,107 @@
             this.label64.TabIndex = 71;
             this.label64.Text = "Euro Milhoes";
             // 
+            // n1
+            // 
+            this.n1.BackColor = System.Drawing.Color.Gainsboro;
+            this.n1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n1.Location = new System.Drawing.Point(541, 526);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(35, 35);
+            this.n1.TabIndex = 72;
+            this.n1.Tag = "50";
+            this.n1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n2
+            // 
+            this.n2.BackColor = System.Drawing.Color.Gainsboro;
+            this.n2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n2.Location = new System.Drawing.Point(582, 526);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(35, 35);
+            this.n2.TabIndex = 73;
+            this.n2.Tag = "50";
+            this.n2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n3
+            // 
+            this.n3.BackColor = System.Drawing.Color.Gainsboro;
+            this.n3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n3.Location = new System.Drawing.Point(623, 526);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(35, 35);
+            this.n3.TabIndex = 74;
+            this.n3.Tag = "50";
+            this.n3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n4
+            // 
+            this.n4.BackColor = System.Drawing.Color.Gainsboro;
+            this.n4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n4.Location = new System.Drawing.Point(664, 526);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(35, 35);
+            this.n4.TabIndex = 75;
+            this.n4.Tag = "50";
+            this.n4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n5
+            // 
+            this.n5.BackColor = System.Drawing.Color.Gainsboro;
+            this.n5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n5.Location = new System.Drawing.Point(707, 527);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(35, 35);
+            this.n5.TabIndex = 76;
+            this.n5.Tag = "50";
+            this.n5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // e2
+            // 
+            this.e2.BackColor = System.Drawing.Color.Gainsboro;
+            this.e2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.e2.Location = new System.Drawing.Point(707, 564);
+            this.e2.Name = "e2";
+            this.e2.Size = new System.Drawing.Size(35, 35);
+            this.e2.TabIndex = 78;
+            this.e2.Tag = "50";
+            this.e2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // e1
+            // 
+            this.e1.BackColor = System.Drawing.Color.Gainsboro;
+            this.e1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.e1.Location = new System.Drawing.Point(664, 564);
+            this.e1.Name = "e1";
+            this.e1.Size = new System.Drawing.Size(35, 35);
+            this.e1.TabIndex = 77;
+            this.e1.Tag = "50";
+            this.e1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(181, 535);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(153, 43);
+            this.button2.TabIndex = 79;
+            this.button2.Text = "Sorteio";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // label65
+            // 
+            this.label65.BackColor = System.Drawing.Color.Transparent;
+            this.label65.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.Location = new System.Drawing.Point(494, 491);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(248, 35);
+            this.label65.TabIndex = 80;
+            this.label65.Tag = "50";
+            this.label65.Text = "Os números da sorte são:";
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -956,14 +1014,18 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = global::Euro_Milhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(874, 602);
+            this.ClientSize = new System.Drawing.Size(874, 608);
+            this.Controls.Add(this.label65);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.e2);
+            this.Controls.Add(this.e1);
+            this.Controls.Add(this.n5);
+            this.Controls.Add(this.n4);
+            this.Controls.Add(this.n3);
+            this.Controls.Add(this.n2);
+            this.Controls.Add(this.n1);
             this.Controls.Add(this.label64);
             this.Controls.Add(this.label63);
-            this.Controls.Add(this.teste2);
-            this.Controls.Add(this.teste);
-            this.Controls.Add(this.contador2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.contador);
             this.Controls.Add(this.label62);
             this.Controls.Add(this.label61);
             this.Controls.Add(this.label71);
@@ -1032,7 +1094,6 @@
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "EuroMilhoes";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1105,13 +1166,17 @@
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label contador;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label contador2;
-        private System.Windows.Forms.Label teste;
-        private System.Windows.Forms.Label teste2;
         private System.Windows.Forms.Label label63;
         private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Label n2;
+        private System.Windows.Forms.Label n3;
+        private System.Windows.Forms.Label n4;
+        private System.Windows.Forms.Label n5;
+        private System.Windows.Forms.Label e2;
+        private System.Windows.Forms.Label e1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label65;
     }
 }
 

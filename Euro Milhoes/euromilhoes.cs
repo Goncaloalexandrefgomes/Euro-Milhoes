@@ -12,6 +12,61 @@ namespace Euro_Milhoes
         private string cruz = "✗";
         private bool[] numeros = new bool[50];
         private bool[] estrelas = new bool[12];
+        private int[] nsort;
+        private int[] esort;
+
+
+        private int[] sorteia(int qtd, int max)
+        {
+            Random rnd = new Random();
+            List<int> lista = new List<int>();
+            for (int i = 0; i < qtd; i++)
+            {
+                int tmp;
+                do tmp = rnd.Next(1, max + 1);
+                while (lista.Contains(tmp));
+                lista.Add(tmp);
+            }
+            lista.Sort();
+            return lista.ToArray();
+        }
+
+        public int[] nsorteia => get {nsort = sorteia(5, 50); return nsort; }
+        {
+            get
+            {
+                nsort = sorteia(5, 50);
+                return nsort;
+            }
+        }
+
+        public int[] esorteia
+        {
+            get
+            {
+                esort = sorteia(2, 12);
+                return esort;
+            }
+        }
+
+
+        public int ncertos
+        {
+            get
+            {
+                return 0;
+            }
+        }
+
+
+        public int ecertos
+        {
+            get
+            {
+                return 0;
+            }
+        }
+
 
         public string numero(int n)
         {
